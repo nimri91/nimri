@@ -34,6 +34,7 @@ dubai_branch.employees.create!(name: "Employee 3 Dubai", email: "employee3_dubai
 room_1_amman = amman_branch.rooms.create!(name: "Amman Meeting Room 1")
 room_2_amman = amman_branch.rooms.create!(name: "Amman Meeting Room 2")
 
+
 # Room Placement
 employee_1_amman.rooms << room_1_amman
 employee_2_amman.rooms << [room_1_amman, room_2_amman]
